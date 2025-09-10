@@ -6,7 +6,9 @@ export default function Home() {
 
 
 
-    <><h1>Hello world</h1><div className={styles.page}>
+    <div className={styles.page}>
+    
+    <h1>Hello world</h1><div className={styles.page}>
       <main className={styles.main}>
 
 
@@ -21,7 +23,7 @@ export default function Home() {
 
           <Image
           className={styles.logo}
-          src="/"
+          src="/vercel.svg"
           alt="Vercel logo"
           width={100}
           height={24}
@@ -52,7 +54,7 @@ export default function Home() {
              />
 
            
-                        <Image
+            <Image
               src="/rouen-cathedral-9787080_1280.jpg"
               alt="Rouen Cathedral"
               width={600}
@@ -117,17 +119,7 @@ export default function Home() {
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
-        >
-
-
-
-          <Image
-            aria-hidden
-            src="https://snworksceo.imgix.net/ids/4c3b9110-6c1e-46b2-95c9-3829438c7977.sized-1000x1000.jpg?w=1000"
-            alt="File icon"
-            width={160}
-            height={160} />
-          Learn
+        > Learn
         </a>
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -159,6 +151,8 @@ export default function Home() {
 
 
       </footer>
-    </div></>
+    </div>    
+    
+    </div>
   );
 }
