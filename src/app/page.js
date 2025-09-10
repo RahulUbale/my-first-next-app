@@ -21,6 +21,20 @@ export default function Home() {
           </nav>
 
 
+
+
+
+          <div className={styles.description1}>
+            <img src="https://img.pokemondb.net/artwork/avif/goodra.avif" alt="IU Logo" width={100} height={100} />
+            <ul>
+              <li>
+            < b>Goodra</b> This is the Goodra Pokemon.
+            </li>
+            </ul>
+            </div>
+            
+
+
           <Image
           className={styles.logo}
           src="/vercel.svg"
