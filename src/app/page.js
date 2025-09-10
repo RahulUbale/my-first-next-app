@@ -20,6 +20,8 @@ export default function Home() {
           <a href="/contact">Contact</a>
           </nav>
 
+          <a href="https://www.iu.edu/" target="blank"> fgr </a>
+
 
 
 
