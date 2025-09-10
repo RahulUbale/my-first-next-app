@@ -14,13 +14,6 @@ export default function Home() {
 
 
 
-          <nav className={styles.nav}>
-          <a href="https://one.iu.edu/" target="blank">One IU  </a> <br></br>
-          <a href="/about">About</a> <br></br>
-          <a href="/contact">Contact</a>
-          </nav>
-
-
 
 
 
