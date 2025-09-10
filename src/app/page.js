@@ -28,7 +28,7 @@ export default function Home() {
             <img src="https://img.pokemondb.net/artwork/avif/goodra.avif" alt="IU Logo" width={100} height={100} />
             <ul>
               <li>
-            < b>Goodra</b> This is the Goodra Pokemon.
+            This is the not  Pokemon.
             </li>
             </ul>
             </div>
